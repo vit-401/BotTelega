@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="/favicon.ico">
+  <title>Document</title>
+  <link rel="stylesheet" href="libs.min.css">
+  <link rel="stylesheet" href="style.min.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <form action="telegram.php" method="POST" class="form">
+      <div class="line">
+        <label>Имя:</label>
+        <input type="text" name="user_name" placeholder="Ваня">
+      </div>
+      <div class="line">
+        <label>Адресс:</label>
+        <input type="text" name="user_adres" placeholder="м. Белая Церковь д103 кв110">
+      </div>
+      <div class="line">
+        <label>Нормер телефона:</label>
+        <input type="text" name="user_phone" placeholder="+3809811221122">
+      </div>
+      <div class="line">
+        <label>Помпа:</label>
+        <select name="pompa">
+          <option value="Нет">Нет</option>
+          <option value="Да">Да</option>
+        </select>
+      </div>
+      <button type="submit">Отправить</button>
+
+    </form>
+
+  </div>
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
